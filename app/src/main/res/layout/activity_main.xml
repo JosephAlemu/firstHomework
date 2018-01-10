@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.user.myshortbio.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal">
+        android:weightSum="1">
+        <LinearLayout
+            android:id="@+id/headerLeft"
+            android:layout_width="0dp"
+            android:layout_height="90dp"
+            android:orientation="vertical"
+            android:background="#FDFEFE"
+            android:layout_weight="0.3"
+            android:weightSum="1">
+
+
+            <TextView
+                android:id="@+id/txtname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Joseph Alemu"
+                android:paddingTop="5dp"
+                android:paddingLeft="5dp"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@color/colorPrimaryDark"
+
+                />
+
+            <TextView
+                android:id="@+id/txttitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="software engineer"
+                android:paddingLeft="8dp"
+                android:textColor="@color/colorPrimary"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/ver"
+            android:layout_width="0dp"
+            android:layout_height="90dp"
+            android:orientation="vertical"
+            android:background="#5D6D7E"
+            android:layout_weight="0.005"
+            android:weightSum="1">
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/headerRight"
+            android:layout_width="0dp"
+            android:layout_height="90dp"
+            android:orientation="vertical"
+            android:background="#FBFCFC"
+            android:layout_weight="0.5"
+            android:weightSum="1">
+
+
+            <TextView
+                android:id="@+id/txtaddres"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:paddingLeft="5dp"
+                android:textColor="@color/colorPrimary"
+                android:text="9061 seward park Ave " />
+
+            <TextView
+                android:id="@+id/txtphone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:paddingLeft="5dp"
+                android:textColor="@color/colorPrimary"
+                android:text="Phone No: 206-422-4657" />
+
+            <TextView
+                android:id="@+id/txtemail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:paddingLeft="5dp"
+                android:textColor="@color/colorPrimary"
+                android:text="Email: josephalemu01@gmail.com" />
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/body"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:orientation="horizontal"
+        android:background="#5D6D7E"
+        android:weightSum="1">
+      </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/txtboy"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:orientation="horizontal"
+        android:weightSum="1"></LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bodytwo"
+        android:layout_width="match_parent"
+        android:layout_height="800dp"
+        android:orientation="horizontal">
+        android:weightSum="1">
+
+
+        <LinearLayout
+            android:id="@+id/bodyLeft"
+            android:layout_width="0dp"
+            android:layout_height="400dp"
+            android:orientation="vertical"
+            android:background="#F4F6F7"
+            android:layout_weight="0.5"
+            android:weightSum="1">
+
+
+            <TextView
+                android:id="@+id/txtedu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Education"
+                android:background="#D6EAF8"
+                android:padding="10dp"
+                 />
+
+            <TextView
+                android:id="@+id/txtbs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingBottom="5dp"
+                android:text="◦BS incomputer science " />
+
+            <TextView
+                android:id="@+id/txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingBottom="60dp"
+                android:text="◦A.A.S Associate " />
+            <TextView
+                android:id="@+id/txtskill"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Skills"
+                android:background="#D6EAF8"
+                android:padding="10dp"
+                />
+            <TextView
+                android:id="@+id/txtcsharp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingBottom="5dp"
+                android:text="◦C# " />
+            <TextView
+            android:id="@+id/txtjava"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+                android:paddingBottom="5dp"
+            android:text="◦Java " />
+            <TextView
+                android:id="@+id/txtcpp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:text="◦C++ " />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/ver2"
+            android:layout_width="0dp"
+            android:layout_height="400dp"
+            android:orientation="vertical"
+            android:layout_weight="0.007"
+            android:weightSum="1">
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/bodyRight"
+            android:layout_width="0dp"
+            android:layout_height="400dp"
+            android:orientation="vertical"
+            android:background="#ECF0F1  "
+            android:layout_weight="0.5"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/txtwork"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Work Experience"
+                android:background="#D6EAF8"
+                android:padding="10dp"
+                />
+
+            <TextView
+                android:id="@+id/txthcl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingBottom="5dp"
+            android:text="May 2015 -  Present " />
+
+            <TextView
+                android:id="@+id/txtwr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingBottom="60dp"
+                android:text="◦HCL America " />
+
+            <TextView
+                android:id="@+id/txthcl2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingBottom="5dp"
+                android:text="May 2014 -  Jun 2010 " />
+
+            <TextView
+                android:id="@+id/txtwr2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingBottom="60dp"
+                android:text="◦Amazon" />
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
